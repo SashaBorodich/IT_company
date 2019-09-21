@@ -1,6 +1,83 @@
 @import 'normilize.css';
 
+*{
+	box-sizing: border-box;
+}
+
 body { 
 	font-family:	'Montserrat', sans-serif;
 }
+
+.button {
+	height: 45px;
+	width: 200px;
+	background: #4985FF;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 2.5em;
+	box-shadow: 0px 3px 4px black;
+}
+
+
+.section-inner {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+/* First-screen */
+
+.section-first-screen {
+	height: 100vh;
+	color: #fff;
+	background: url('../images/background-first-screen.png') no-repeat 50% 50%;
+	background-size: cover;
+}
+/* Navigation */
+.section-first-screen .navigation {
+	border-bottom: 1px solid rgba(161,161,161,.25);
+}
+
+.section-first-screen .navigation nav ul {
+	display: flex;
+	height: 80px;
+	list-style: none;
+	padding: 0;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.section-first-screen .navigation nav ul a {
+	color: #ffffff;
+	margin-left: 25px;
+	text-decoration: none;
+	padding: 30px 5px;
+	
+}
+
+.section-first-screen .navigation nav ul a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+/* / Navigation */
+
+/* Content first-screen */
+
+.section-first-screen .content {
+	margin: 0 auto;
+	width: 55%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.section-first-screen .content h1 {
+	text-align: center;
+}
+
+/* / Content first-screen */
+
+/* / First-screen */
 
