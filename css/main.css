@@ -17,6 +17,7 @@ body {
 	line-height: 2.5em;
 	box-shadow: 0px 3px 4px black;
 	color: #fff;
+	cursor: pointer;
 }
 
 
@@ -104,14 +105,14 @@ body {
 
 .section-services .services-wrap {
 	display: flex;
-	width: 90%;
-	justify-content: space-between;
+	justify-content: space-around;
 
 }
 
 .section-services .services-wrap article {
 	width: 250px;
 	position: relative;
+	margin-left: 100px;
 }
 
 .section-services .services-wrap article::before {
@@ -132,3 +133,73 @@ body {
 }
 
 /* /Services */
+
+
+/* About us */
+
+.section-about-us {
+	background: #f6f6f8;
+	
+}
+
+.section-about-us .section-inner {
+	height: 100vh;
+}
+
+.section-about-us .about-us-text {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 75vh;
+	border-bottom: 1px solid lightgray;
+}
+
+.section-about-us .about-us-text .text {
+	width: 40%;
+	line-height: 1.7em;
+}
+
+.section-about-us .about-us-text .text p {
+	color: grey;
+}
+
+.section-about-us .about-us-text .text a {
+	color: #4985f4;
+}
+
+.section-about-us .about-us-text .text h2 {
+	font-size: 32px;
+	line-height: 1.5em;
+}
+
+.section-about-us .about-us-numbers {
+	height: 25vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.section-about-us .about-us-numbers .number-project {
+	position: relative;
+}
+
+.section-about-us .about-us-numbers .number-project::before {
+	content: '';
+	background: url('/images/icon-web-programming.svg');
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: 5px;
+	top: 20px;
+
+}
+
+.section-about-us .about-us-numbers .number-project h2 {
+	font-weight: 500;
+	margin-left: 50px;
+}
+
+.section-about-us .about-us-numbers .number-project p {
+	color: grey;
+}
+/* / About us */
