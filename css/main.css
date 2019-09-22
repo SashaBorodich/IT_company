@@ -16,6 +16,7 @@ body {
 	text-align: center;
 	line-height: 2.5em;
 	box-shadow: 0px 3px 4px black;
+	color: #fff;
 }
 
 
@@ -81,3 +82,53 @@ body {
 
 /* / First-screen */
 
+/* Services */
+.section-services .section-inner{
+	height: 80vh;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.section-services .section-inner .text {
+	width: 55%;
+	text-align: center;
+}
+
+.section-services .section-inner .text p {
+	color: #ccc;
+	margin-top: 50px;
+}
+
+.section-services .services-wrap {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+
+}
+
+.section-services .services-wrap article {
+	width: 250px;
+	position: relative;
+}
+
+.section-services .services-wrap article::before {
+	content: ' ';
+	background: url('/images/icon-create-site.svg') no-repeat 50% 50%;
+	position: absolute;
+	left: -100px;
+	top: -5px;
+	height: 40px;
+	width: 40px;
+	padding: 17px;
+	border: 1px solid #4985F4;
+	border-radius: 50%;
+}
+
+.section-services .services-wrap article p {
+	color: #ccc;
+}
+
+/* /Services */
