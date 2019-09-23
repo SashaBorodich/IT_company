@@ -117,7 +117,7 @@ body {
 
 .section-services .services-wrap article::before {
 	content: ' ';
-	background: url('/images/icon-create-site.svg') no-repeat 50% 50%;
+	background: url('images/icon-create-site.svg') no-repeat 50% 50%;
 	position: absolute;
 	left: -100px;
 	top: -5px;
@@ -185,7 +185,7 @@ body {
 
 .section-about-us .about-us-numbers .number-project::before {
 	content: '';
-	background: url('/images/icon-web-programming.svg');
+	background: url('images/icon-web-programming.svg');
 	position: absolute;
 	height: 30px;
 	width: 30px;
