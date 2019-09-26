@@ -117,7 +117,7 @@ body {
 
 .section-services .services-wrap article::before {
 	content: ' ';
-	background: url('images/icon-create-site.svg') no-repeat 50% 50%;
+	background: url('/images/icon-create-site.svg') no-repeat 50% 50%;
 	position: absolute;
 	left: -100px;
 	top: -5px;
@@ -126,6 +126,19 @@ body {
 	padding: 17px;
 	border: 1px solid #4985F4;
 	border-radius: 50%;
+}
+
+.section-services .services-wrap article::after {
+	content: ' ';
+	position: absolute;
+	left: -110px;
+	top: -15px;
+	height: 40px;
+	width: 40px;
+	padding: 27px;
+	border: 1px solid #E0E0E0;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px #E0E0E0;
 }
 
 .section-services .services-wrap article p {
@@ -185,7 +198,7 @@ body {
 
 .section-about-us .about-us-numbers .number-project::before {
 	content: '';
-	background: url('images/icon-web-programming.svg');
+	background: url('/images/icon-web-programming.svg');
 	position: absolute;
 	height: 30px;
 	width: 30px;
@@ -203,3 +216,4 @@ body {
 	color: grey;
 }
 /* / About us */
+
